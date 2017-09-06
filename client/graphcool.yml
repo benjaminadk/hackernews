@@ -1,0 +1,30 @@
+types: ./types.graphql
+functions: {}
+permissions:
+- operation: File.read
+  authenticated: false
+- operation: File.create
+  authenticated: false
+- operation: File.update
+  authenticated: false
+- operation: File.delete
+  authenticated: false
+- operation: Link.read
+  authenticated: false
+- operation: Link.create
+  authenticated: false
+- operation: Link.update
+  authenticated: false
+- operation: Link.delete
+  authenticated: false
+- operation: User.read
+  authenticated: false
+- operation: User.create
+  authenticated: false
+- operation: User.update
+  authenticated: false
+- operation: User.delete
+  authenticated: false
+- operation: UsersLinks.*
+  authenticated: false
+rootTokens: []
